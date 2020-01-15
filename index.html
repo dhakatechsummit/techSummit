@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
 <body>
@@ -28,10 +29,13 @@
                         </a>
                         <nav class="navbar-area">
                             <ul id="menu">
-                                <li><a href="#">menu 1</a></li>
-                                <li><a href="#">menu 2</a></li>
-                                <li><a href="#">menu 3</a></li>
-                                <li><a href="#">menu 4</a></li>
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#speaker">Speakers</a></li>
+                                <li><a href="#festival">Festival</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#sponsor">Sponsors</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -41,7 +45,7 @@
     </header>
     <!-- tech-summit header end -->
     <!-- hero area start -->
-    <div class="hero-area">
+    <div class="hero-area" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -55,7 +59,7 @@
     </div>
     <!-- hero area end -->
     <!-- about area start -->
-    <section class="about-area">
+    <section class="about-area" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -84,7 +88,7 @@
     </section>
     <!-- about area end -->
     <!-- counter area start -->
-    <section class="countdown-area">
+    <div class="countdown-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -121,10 +125,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- counter area end -->
     <!-- speaker area start -->
-    <section class="speaker-area">
+    <section class="speaker-area" id="speaker">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -192,7 +196,7 @@
     </section>
     <!-- speaker area end -->
     <!-- event schedule area start -->
-    <section class="event-schedule-area">
+    <section class="event-schedule-area" id="festival">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -248,7 +252,7 @@
     </section>
     <!-- event schedule area end -->
     <!-- event blog area start -->
-    <section class="event-blog-area">
+    <section class="event-blog-area" id="blog">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -330,7 +334,7 @@
     </section>
     <!-- event blog area end -->
     <!-- sposor area start -->
-    <section class="sponsor-area">
+    <section class="sponsor-area" id="sponsor">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -378,7 +382,7 @@
     </section>
     <!-- sposor area end -->
     <!-- contact area start -->
-    <section class="contact-area">
+    <section class="contact-area" id="contact">
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.244267051615!2d90.42886891500025!3d23.809911492417204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7caac66819b%3A0x92cd609525d76d64!2sApollo%20Hospitals%20Dhaka!5e0!3m2!1sen!2sbd!4v1579018427996!5m2!1sen!2sbd"></iframe>
         </div>
@@ -406,13 +410,35 @@
                 </div>
             </div>
         </div>
+        <div title="Add to Calendar" class="addeventatc">
+            Add to Calendar
+            <span class="start">01/28/2020 08:00 AM</span>
+            <span class="end">01/28/2020 10:00 AM</span>
+            <span class="timezone">America/Los_Angeles</span>
+            <span class="title">Summary of the event</span>
+            <span class="description">Description of the event</span>
+            <span class="location">Location of the event</span>
+        </div>
     </section>
     <!-- contact area end -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        Copyright @ Tech Summit Dhaka 2020
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/fontawesome.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
     <script src="js/scripts.js"></script>
 </body>
 

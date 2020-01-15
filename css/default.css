@@ -114,7 +114,7 @@ Some Default Styles
 .code-text:after {content: '/>';}
 
 section{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 img{
     max-width: 100%;
