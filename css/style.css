@@ -315,13 +315,16 @@ speaker area styles
 .single-speaker {
     position: relative;
     display: inline-block;
+    min-width: 100%;
 }
 
 .single-speaker h3 {
     font-size: 32px;
     color: #fff;
 }
-
+.single-speaker img{
+    width: 100%;
+}
 .single-speaker:hover h3 {
     color: #fff;
 }
