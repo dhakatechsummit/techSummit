@@ -9,7 +9,7 @@
         day = hour * 24,
         month = day * 30;
 
-    var countDown = new Date('Jan 30, 2020 00:00:00').getTime(),
+    var countDown = new Date('Jan 23, 2020 16:45:00').getTime(),
         x = setInterval(function () {
 
             var now = new Date().getTime(),
